@@ -10,6 +10,8 @@ const session = require('express-session');
 const flash = require('connect-flash'); //Sirve para enviar mensajes entre múltiples vistas
 const passport = require('passport');
 
+const dotenv = require('dotenv').config();
+
 //Initiliazations
 const app = express();
 require('./database');
